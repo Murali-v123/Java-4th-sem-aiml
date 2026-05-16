@@ -9,6 +9,7 @@ public class InsertintoEmployee {
 	            + name + "', '"
 	            + dept + "', "
 	            + salary + ")"; 
+		
 		try(Connection conn=DbConnection.getConnection();
 			Statement s=conn.createStatement()){
 				int rows=(s).executeUpdate(sql);
@@ -22,8 +23,6 @@ public class InsertintoEmployee {
 
 	public static void main(String[] args) {
 		insertEmployee("Pradeep", "it", 250000);
-		insertEmployee("rohith", "it", 250000);
-		insertEmployee("cheta","it",150000);
 
 	}
 }

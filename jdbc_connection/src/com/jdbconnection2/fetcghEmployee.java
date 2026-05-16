@@ -24,6 +24,5 @@ public class fetcghEmployee {
 
 	public static void main(String[] args) {
 		fetchEmployee();
-
 	}
 }
