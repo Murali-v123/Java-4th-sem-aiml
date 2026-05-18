@@ -93,7 +93,7 @@ public class PreparedStatementMenu {
 	  //  6. MAIN 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        try (Connection con = Dbconnection.getConnection()) {
+        try (Connection con = Dbconnection  .getConnection()) {
             System.out.println("  Connected!");
             int choice;
             do {
