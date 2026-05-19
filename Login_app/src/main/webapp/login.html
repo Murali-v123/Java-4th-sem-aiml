@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+     body { font-family: Arial; display: flex; justify-content: center; margin-top: 80px; background: #f0f4f8; }
+    .box { background: white; border: 1px solid #dde; padding: 36px; border-radius: 12px; width: 320px; box-shadow: 0 4px 20px rgba(0,0,0,.08); }
+    h2 { color: #1565C0; margin-bottom: 20px; }
+    label { font-size: 13px; color: #555; font-weight: 600; }
+    input { width: 100%; padding: 10px; margin: 6px 0 14px; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; font-size: 14px; }
+    button { background: #1565C0; color: white; padding: 11px; width: 100%; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 700; }
+    button:hover { background: #0D47A1; }
+</style>
+</head>
+<body>
+    <div class="box">
+        <h1>Login</h1>
+        <form action="login" method="post">
+            <label for="username"> Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login:</button>
+        </form>
+    </div>
+    
+
+</body>
+</html>
